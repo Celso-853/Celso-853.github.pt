@@ -1,0 +1,401 @@
+
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Anti Sleep Glasses</title>
+</head>
+<body>
+
+    <!--header-->
+ <header style="background-image: url('img/pagina.jpg');">
+
+    <div class="Container">
+        <nav>
+            <a href="index.html">
+              <img src="novacelso.png" alt="Logo">  
+            </a>
+            <ul class="ul">
+                <a href="index.html">Home</a>
+                <a href="about.html">about</a>
+                <a href="services.html">services</a>
+                <a class="btn"
+                href="contats.html">contats</a>
+
+            </ul>
+        </nav>
+<section class="banner">
+    <div class="banner-text">
+        <h1>Anti Sleep Glasses</h1>
+        <p> Seja Benvindo </p>
+        <a href="contats.html" class="btn">Entrar em contacto</a>
+    </div>
+
+
+</section>
+
+
+    </div>
+ </header>
+
+<!--end header-->
+
+ <section class="faça-mais">
+
+    <!--container-->
+
+    <div  class="Container">
+        <div class="faça-mais-text">
+            <h3></h3>
+           <p>
+                Olá a todos vou mostrar como você pode fazer óculos anti-sono usando Arduino e alguns componentes eletrônicos muito básicos. Este óculos alerta o motorista sempre que ele adormece enquanto dirige o veículo. já que dormir sobre rodas é perigoso, às vezes pode se transformar em acidentes de condicionamento físico e levar à morte. portanto, para evitar tais consequências de acidentes, podemos usar este gadget para alertar o motorista quando ele sentir sonolência. Então, vamos ver e aprender como podemos fazer óculos anti-sono simples sozinhos.
+            </p>
+        </div>
+        <div class="faça mais img">
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <!--container-->
+
+ </section>
+
+ <section class="faça mais">
+
+    <!--container-->
+
+    <div class="step">
+        <h2>Passo 1: Vamos começar!</h2>
+
+
+
+
+        <div class="componentes">
+            <br>
+            <p>Componentes utilizados:</p>
+            <br>
+        </div>
+        <div class="usado">
+            <p><a href="https://www.electrofun.pt/arduino/arduino-pro-mini-atmega328" target="_blank">Arduino Pro Mini X1</a></p>
+        <p><a href="https://solectroshop.com/es/sensores-de-distancia-proximidad-ir-y-ultrasonidos/93-modulo-tcrt5000-sensor-infrarrojo-ir-seguidor-linea-obstaculos.html" target="_blank">Sensor IR X1</a></p>
+        <p><a href="https://solectroshop.com/es/transistores/836-25x-bc547b-transistor-npn-50v-100ma-01a-to-92-5905323234697.html" target="_blank">Transistor BC547 X1</a></p>
+        <p><a href="https://www.amazon.com/gp/product/B07PHRX7QH/ref=as_li_qf_asin_il_tl?ie=UTF8&tag=shubham048-20&creative=9325&linkCode=as2&creativeASIN=B07PHRX7QH&linkId=01b72701c2348ee7d2e09746aa8ff1bd&th=1" target="_blank">Vibrador X1</a></p>
+        <p><a href="https://www.joom.com/pt/products/64b00fd5dafe6d01be935f2f?variant_id=64b00fd5dafe6d02be935f31&currency=EUR&utm_feed=main&utm_hash=1499eff851b04a63f1d8a93da80c6448&gsAttrs=eyJyZWdpb24iOiJQVCJ9&utm_source=google_shopping&utm_medium=cpc&utm_campaign=21193057437&utm_term=cid-21193057437%2Cagi-%2Cadi-%2Ctid-%2Cdev-c%2Creg-9196345%2Cmd-64b00fd5dafe6d02be935f31&gad_source=1&gclid=CjwKCAjwqMO0BhA8EiwAFTLgIGrqJJ8uqp-hbLHp5tyi4SuZvm7PJqyOu-B0ihCtBG5W4JHK4NgFmhoCQGAQAvD_BwE" target="_blank">Campainha de 5 volts X1</a></p>
+        <p><a href="https://www.joom.com/pt/products/627f0c6b63aa5401342a9adf" target="_blank">Resistores 4,7K X1</a></p>
+        <p><a href="https://www.joom.com/pt/products/6363d4e9dddaf501c6c7dc9a?variant_id=6363d4e9dddaf55ac6c7dc9c" target="_blank">Bateria 3,7 V X1</a></p>
+        <p><a href="https://www.joom.com/pt/products/64f90be57f305e01734e795a" target="_blank">Armação de óculos X1</a></p>
+
+
+        </div>
+       
+
+
+
+
+
+
+
+       
+
+
+                
+          
+           
+
+            </div>
+            
+
+            <div class="Step 2: How It Works?">
+              <p></p>
+               
+            </div>
+           
+        </div>
+    </div>
+    <!--container-->
+ </section>
+<!--depoimento-->
+ 
+
+
+
+<section class="faça-mais">
+
+    <!--container-->
+    <h4>Passo 2: Como funciona?</h4>
+    <div  class="Funcionamento">
+        
+        <div class="faça">
+            
+          <div class="text">
+            O funcionamento deste projeto é baseado em um Sensor Infra Vermelho. Este sensor é o coração deste projeto.
+
+            Vamos dar uma olhada no sensor IR. Na foto mostrei um sensor IR típico, basicamente ele possui um transmissor IR LED, um fotodiodo, um IC amplificador Opp e um potenciômetro.
+            
+            O fotodiodo é colocado próximo ao LED IR de forma que não possa receber raios IR diretamente. O fotodiodo é sensível à radiação infravermelha. É o cátodo conectado à tensão positiva, ou seja, 5 volts, e o ânodo conectado à entrada não inversora do amplificador Opp, que também é puxado para baixo pelo resistor de 10 Kilo ohm. O potenciômetro no sensor IR é usado para definir a distância de sensibilidade do sensor, conectado à entrada inversora do amplificador Opp. O LED IR transmite continuamente os raios infravermelhos e se algum objeto passar na frente dele, os raios IR são refletidos de volta e recebidos pelo fotodiodo devido a essa mudança na radiação IR, a tensão no ânodo muda, a mudança na tensão do ânodo depende da radiação IR recebida pelo fotodiodo. Quanto maior a radiação IR recebida, maior será a mudança na tensão do ânodo. A saída do sensor IR obtida da saída do amplificador Opp. Podemos ajustar a distância de sensibilidade girando o potenciômetro no sensor, giramos o potenciômetro, o que significa que definimos uma tensão limite para a entrada não inversora do amplificador Opp. Sempre que a tensão na entrada não inversora for maior que a tensão limite, a tensão na entrada não inversora, ou seja, + ve tensão do fotodiodo, é encaminhada e obtém o pulso positivo na saída do amplificador Opp, ou seja, saída do sensor.
+            
+            Um diagrama de circuito típico de sensores IR está anexado, verifique-o para referência.
+            
+            Vamos ver o diagrama do circuito principal do projeto. Conectei um sensor IR na placa Arduino Pro Mini como Vcc do sensor ao vcc do Arduino Pro Mini, terra ao terra e a saída do sensor ao pino analógico um ( A1 ) do Arduino Pro Mini. Usei uma campainha de 5 volts e um motor vibrador do celular antigo para alertar. Conectei a campainha e o motor vibrador em paralelo e usei um transistor NPN de uso geral ( BC547 ) para acioná-los. Emissor do transistor conectado ao terra e coletor conectado ao pino negativo da campainha e motor vibrador. O terminal positivo do motor vibrador e da campainha é conectado ao vcc do Arduino Pro Mini. Base do transistor conectada ao pino D3 do Arduino Pro Mini através do resistor de 4,7 quilo ohms.
+        </div>
+        </div>
+        <div class="faça mais img">
+            <img src="" alt="">
+        </div>
+    </div>
+
+    <!--container-->
+
+     <!--cicuito-->
+     
+<section class="imagem">
+    <h3>Circuito</h3>
+    
+
+        
+<div class="gallery">
+    <a href="#img1"><img src="img/1ºcircuito.png" alt="Imagem 1" class="thumbnail"></a>
+    <a href="#img2"><img src="img/2ºcircuito.png" alt="Imagem 2" class="thumbnail"></a>
+    <a href="#img3"><img src="img/3ºcircuito.png" alt="Imagem 3" class="thumbnail"></a>
+</div>
+
+<div id="img1" class="modal">
+    <a href="#" class="close">&times;</a>
+    <img src="img/1ºcircuito.png" alt="Imagem 1">
+    <a href="#img3" class="prev">&#10094;</a>
+    <a href="#img2" class="next">&#10095;</a>
+</div>
+
+<div id="img2" class="modal">
+    <a href="#" class="close">&times;</a>
+    <img src="img/2ºcircuito.png" alt="Imagem 2">
+    <a href="#img1" class="prev">&#10094;</a>
+    <a href="#img3" class="next">&#10095;</a>
+</div>
+
+<div id="img3" class="modal">
+    <a href="#" class="close">&times;</a>
+    <img src="img/3ºcircuito.png" alt="Imagem 3">
+    <a href="#img2" class="prev">&#10094;</a>
+    <a href="#img1" class="next">&#10095;</a>
+</div>
+
+   
+
+</section>
+ <!--cicuito-->
+
+
+<!--etapa3-->
+<section class="Passo">
+    <h5>Etapa 3:</h5>
+</section>
+<div class="montar">
+    <img src="img/monta2º.png" alt="Image 2" class="gallery-montar">
+    <img src="img/monta1º.png" alt="Image 1" class="gallery-montar">
+    <img src="img/monta5º.png" alt="Image 2" class="gallery-montar">
+    <img src="img/monta6º.png" alt="Image 3" class="gallery-montar">
+    <img src="img/monta8º.png" alt="Image 1" class="gallery-montar">
+    <img src="img/monta7º.png" alt="Image 1" class="gallery-montar">
+
+</div>
+   <div class="texto">Aqui não usei nenhuma PCB para fazer o circuito, pois o circuito não é tão complexo. Coloco o sensor sobre a mini placa Arduino pro usando cola quente e soldo-o com fios curtos e flexíveis. Depois, ao lado dele, fiz uma unidade de campainha, na qual estão incluídos o vibrador, a campainha e o transistor, que montei no bastão esquerdo do óculos próximo à orelha. Cole também a bateria no mesmo stick e monte um botão liga / desliga próximo ao olho esquerdo. cole o sensor na moldura de forma que fique próximo aos olhos. a distância entre o olho e o sensor não será superior a 15 a 20 mm.</div>
+
+
+<!--end etapa3-->
+
+<!--etapa4-->
+<section class="etapa4">
+    <h6>Etapa4:</h6>
+    
+
+<div class="imagens">
+    <a href="#img7"><img src="img/1ºetapa4.png" alt="Imagem 1" class="gallery-progração"></a>
+    <a href="#img8"><img src="img/3ºetapa4.png"alt="Imagem 2" class="gallery-progração"></a>
+    <a href="#img9"><img src="img/3etapa.png" alt="Imagem 3" class="gallery-progração"></a>  
+</div>
+
+
+<div id="img7" class="modal">
+    <a href="#" class="close">&times;</a>
+    <img src="img/1ºetapa4.png" alt="Imagem 1">
+    <a href="#img9" class="prev">&#10094;</a>
+    <a href="#img8" class="next">&#10095;</a>
+</div>
+
+<div id="img8" class="modal">
+    <a href="#" class="close">&times;</a>
+    <img src="img/3ºetapa4.png" alt="Imagem 2">
+    <a href="#img7" class="prev">&#10094;</a>
+    <a href="#img9" class="next">&#10095;</a>
+</div>
+
+<div id="img9" class="modal">
+    <a href="#" class="close">&times;</a>
+    <img src="img/3etapa.png" alt="Imagem 3">
+    <a href="#img8" class="prev">&#10094;</a>
+    <a href="#img7" class="next">&#10095;</a>
+</div>
+
+
+
+    <div class="text">Depois de soldar e colar todos os componentes no quadro, os óculos anti sono está pronto acima são algumas fotos dele. Agora vamos entender algumas configurações e programação.</div>
+
+</section>
+
+<!--end etapa4-->
+
+<!--etapa5-->
+<section class="etapa5">
+    
+    <h4>Passo 5: Configuração do sensor</h4>
+
+<div class="imagens">
+    <img src="img/1ºconexão.png" alt="Image 1" class="gallery-conexão">
+    
+</div>
+    <div class="textos">Será melhor se você fizer isso antes de colar o sensor no quadro, depois de conectar todos os componentes, ligue-o. Agora defina a distância de sensibilidade dos sensores para o mínimo. Cerca de 10 mm ou menos..</div>
+
+
+<!--end etapa5-->
+<!--etapa6-->
+<section class="etapa6">
+    
+    <h7>Passo 6: Programação.</h7>
+
+<div class="imagens">
+    <a href="#img10"><img src="img/3ºetapa6.png" alt="Imagem 1" class="gallery-progração"></a>
+    <a href="#img11"><img src="img/2ºetapa6.png" alt="Imagem 2" class="gallery-progração"></a>
+    <a href="#img12"><img src="img/1ºetapa6.png" alt="Imagem 3" class="gallery-progração"></a>
+   
+
+    <div id="img10" class="modal">
+        <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+        <img src="img/3ºetapa6.png" alt="Imagem 1">
+        <a href="#img512" class="prev">&#10094;</a>
+        <a href="#img11" class="next">&#10095;</a>
+    </div>
+    </div>
+    
+    <div id="img11" class="modal">
+        <div class="modal-content">
+        <a href="#" class="close">&times;</a>
+        <img src="img/2ºetapa6.png" alt="Imagem 2">
+        <a href="#img10" class="prev">&#10094;</a>
+        <a href="#img12" class="next">&#10095;</a>
+    </div>
+    </div>
+    
+    <div id="img12" class="modal">
+        <div class="modal-content"></div>
+        <a href="#" class="close">&times;</a>
+        <img src="img/1ºetapa6.png" alt="Imagem 3">
+        <a href="#img11" class="prev">&#10094;</a>
+        <a href="#img10" class="next">&#10095;</a>
+    </div>
+</div>
+    
+    
+</div>
+    <div class="textoprogramação">Arduino pro mini dose não vem com qualquer tipo de conector USB para programação, é por isso que é difícil para iniciantes programá-lo. Mas não se preocupe aqui eu descrevendo uma maneira fácil para o upload do programa para Arduino pro mini. Pegue um uno Arduino e remova seu IC principal, i.e. AtMEGA328P. e depois conecte-o com Arduino pro mini, como mostrado na imagem acima. </div>
+    <div class="textop">
+  <h8>Arduino UNO Arduino Pro Mini</h8> 
+</div>
+  <div class="textov"> 
+    <p> Vcc ---------------------------------- Vcc</p> 
+        
+        <p>  GND ------------------------------ GND</p> 
+        
+            <p> Rx ------------------------------------ Rx</p> 
+        
+                <p> Tx ------------------------------------ Tx</p> 
+        
+                    <p> Rst ---------------------------------- Rst</p> 
+ </div>
+
+ <div class="textoprogramação"> Após a fiação, conecte o Arduino Uno ao computador usando o cabo USB. Copie o seguinte código do Arduino e importe-o no ide do Arduino. Agora goto menu de ferramentas e selecione a placa Arduino Pro mini, Novamente goto menu de ferramentas e selecione a porta COM.
+ E agora clique no botão de upload. depois de fazer o upload do programa tudo feito e está pronto para jogar.    
+ </div>
+<!--end etapa6-->
+<!--end etapa7-->
+
+<section class="Código">
+    <h9>Como funciona o código?</h9>
+
+    <div class="textocódigo">O código é muito simples, serve apenas para gerenciar o atraso de acionamento do buzzer após a entrada do sensor.     
+</div>
+<div class="fotocódigo">
+<a href="#img4"><img src="img/Código.png" alt="Imagem 4" class="img-código"></a></div>
+
+<div id="img4" class="código">
+    <a href="#" class="close">&times;</a>
+   
+</div>
+
+
+
+
+</section>
+ 
+
+
+<!--end etapa7-->
+
+
+
+
+
+ </section>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
